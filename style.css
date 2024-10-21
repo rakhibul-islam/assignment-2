@@ -1,5 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* font-family: "Cedarville Cursive", cursive; */
+/* font-family: "Inter", sans-serif; */
+
+/* css variable */
+:root{
+    --max-width: 1140px;
+    --theme-color: rgb(230, 83, 60);
+    --primary-color: black;
+    --secondary-color: rgb(34, 34, 34);
+    --primary-text-color: rgb(255, 255, 255);
+    --secondary-text-color: rgba(255, 255, 255, 0.5);
+}
+
+/* reset and common code starts here */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
 }
+body{
+    background-color: var(--primary-color);
+    color: white;
+    font-family: "Inter", sans-serif;;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.section-heading{
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--primary-text-color);
+}
+.section-description{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--secondary-text-color);
+    padding: 1rem 0 2rem 0;
+}
+.btn{
+    background-color: var(--theme-color);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.8rem;
+}
+/* reset and common code ends here */
+
+/* navbar section starts here */
+
+/* navbar section ends here */
