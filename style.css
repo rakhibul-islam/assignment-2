@@ -35,7 +35,7 @@ a {
   color: white;
 }
 .section-heading {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 900;
   color: var(--primary-text-color);
 }
@@ -43,7 +43,7 @@ a {
   font-size: 0.8rem;
   font-weight: 400;
   color: var(--secondary-text-color);
-  padding: 1rem 0 2rem 0;
+  padding: 0.5rem 0 2rem 0;
 }
 .btn {
   background-color: var(--theme-color);
@@ -103,7 +103,7 @@ nav {
   margin: 0 auto;
 }
 .hero_content {
-  max-height: 90vh;
+  min-height: 90vh;
 }
 .hero_text {
   flex-basis: 40%;
@@ -154,22 +154,22 @@ nav {
   bottom: 4.6rem;
   left: 6.3rem;
   background-color: rgba(255, 255, 255, 0.1);
-  padding:  0.8rem;
+  padding: 0.8rem;
   border-radius: 0.5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
 }
-.video_tutorial h3{
+.video_tutorial h3 {
   font-size: 1.5rem;
   color: var(--primary-text-color);
 }
-.video_tutorial p{
+.video_tutorial p {
   font-size: 0.7rem;
   color: var(--secondary-text-color);
 }
-.play_btn{
+.play_btn {
   width: 1.5rem;
   height: 1.5rem;
   background-color: var(--theme-color);
@@ -177,3 +177,43 @@ nav {
   border-radius: 50%;
 }
 /* hero section ends here */
+
+/* habit section starts hero */
+.habit {
+  max-width: var(--max-width);
+  margin: 4rem auto;
+}
+.habit_text {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.habits {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  padding: 0 2rem;
+}
+.habit_item {
+  text-align: center;
+}
+.habit_item img {
+  border-radius: 50%;
+  width: 80%;
+}
+.habit_description {
+  padding: 0 1.5rem;
+}
+.habit_description h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-text-color);
+  padding: 0.5rem;
+}
+.habit_description p {
+  font-size: 0.7rem;
+  color: var(--secondary-text-color);
+}
+/* habit section ends hero */

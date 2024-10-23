@@ -22,4 +22,15 @@
     bottom: 13.5rem;
     left: 0;
   }
+  /* habit section */
+  .habit{
+    padding: 1rem;
+  }
+  .habit_text{
+    width: 100%;
+  }
+  .habits{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 4rem;
+  }
 }
