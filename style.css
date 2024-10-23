@@ -1,58 +1,179 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-/* font-family: "Cedarville Cursive", cursive; */
-/* font-family: "Inter", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /* css variable */
-:root{
-    --max-width: 1140px;
-    --theme-color: rgb(230, 83, 60);
-    --primary-color: black;
-    --secondary-color: rgb(34, 34, 34);
-    --primary-text-color: rgb(255, 255, 255);
-    --secondary-text-color: rgba(255, 255, 255, 0.5);
+:root {
+  --max-width: 1140px;
+  --theme-color: rgb(230, 83, 60);
+  --primary-color: black;
+  --secondary-color: rgb(34, 34, 34);
+  --primary-text-color: rgb(255, 255, 255);
+  --secondary-text-color: rgba(255, 255, 255, 0.5);
 }
 
 /* reset and common code starts here */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    outline: none;
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
 }
-body{
-    background-color: var(--primary-color);
-    color: white;
-    font-family: "Inter", sans-serif;;
+body {
+  background-color: var(--primary-color);
+  color: white;
+  font-family: "Inter", sans-serif;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-img{
-    width: 100%;
-    height: auto;
+img {
+  width: 100%;
+  height: auto;
 }
-.section-heading{
-    font-size: 3rem;
-    font-weight: 900;
-    color: var(--primary-text-color);
+a {
+  color: white;
 }
-.section-description{
-    font-size: 0.8rem;
-    font-weight: 400;
-    color: var(--secondary-text-color);
-    padding: 1rem 0 2rem 0;
+.section-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--primary-text-color);
 }
-.btn{
-    background-color: var(--theme-color);
-    color: white;
-    border: none;
-    border-radius: 0.5rem;
-    padding: 0.5rem 0.8rem;
+.section-description {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--secondary-text-color);
+  padding: 1rem 0 2rem 0;
+}
+.btn {
+  background-color: var(--theme-color);
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.7rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 /* reset and common code ends here */
 
 /* navbar section starts here */
+nav {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.nav_content {
+  padding: 1rem 0;
+}
+.logo {
+  color: var(--theme-color);
+  font-size: 2rem;
+  font-weight: 800;
+}
+.hamburger {
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+  display: none;
+}
+.nav_items {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border: 1px solid grey;
+  border-radius: 2rem;
+  padding: 0.3rem 0.1rem;
+}
 
+.nav_items a {
+  padding: 0.2rem 0.5rem;
+  border-radius: 1.5rem;
+}
+.nav_items a:hover {
+  background-color: var(--theme-color);
+}
 /* navbar section ends here */
+
+/* hero section starts here */
+.hero {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.hero_content {
+  max-height: 90vh;
+}
+.hero_text {
+  flex-basis: 40%;
+}
+.hero_text h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--primary-text-color);
+  word-spacing: 0.3rem;
+}
+#shape_style {
+  font-style: italic;
+}
+.hero_text p {
+  font-size: 0.9rem;
+  color: var(--secondary-text-color);
+  padding: 2rem 0;
+}
+.hero_image {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+}
+.hero_img {
+  max-height: 500px;
+}
+.hero_card_1 {
+  position: absolute;
+  top: 7.5rem;
+  right: -2.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.5rem;
+}
+.hero_card_1 h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--primary-text-color);
+}
+.hero_card_1 p {
+  font-size: 0.7rem;
+  color: var(--secondary-text-color);
+}
+.hero_card_2 {
+  position: absolute;
+  bottom: 4.6rem;
+  left: 6.3rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding:  0.8rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+.video_tutorial h3{
+  font-size: 1.5rem;
+  color: var(--primary-text-color);
+}
+.video_tutorial p{
+  font-size: 0.7rem;
+  color: var(--secondary-text-color);
+}
+.play_btn{
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--theme-color);
+  border: none;
+  border-radius: 50%;
+}
+/* hero section ends here */

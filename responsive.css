@@ -1,0 +1,25 @@
+@media screen and (max-width:576px) {
+  /* navbar section */
+  .nav_content{
+    padding: 1rem;
+  }
+  .hamburger{
+    display: block;
+  }
+  .nav_items{
+    display: none;
+  }
+  /* hero section */
+  .hero_content{
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .hero_card_1{
+    top: 3rem;
+    right: 0;
+  }
+  .hero_card_2{
+    bottom: 13.5rem;
+    left: 0;
+  }
+}
