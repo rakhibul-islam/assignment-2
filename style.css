@@ -350,6 +350,7 @@ margin-right: 1rem;
   background-size: cover;
   background-position: center;
   position: relative;
+  min-height: 15rem;
 }
 
 .box p {
@@ -398,6 +399,9 @@ margin-right: 1rem;
 
 /* training section ends here */
 /* bmi section starts here */
+.bmi_section{
+  margin-top: 10rem;
+}
 .bmi_text {
   width: 40%;
   margin: 2rem auto 0 auto;
@@ -497,14 +501,16 @@ option {
   border-radius: 8px;
   min-height: 90vh;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 1rem;
+ grid-template-rows: repeat(2,1fr);
+  gap: 1.5rem;
 }
 .trainer {
   background-position: top;
   background-size: cover;
   position: relative;
   border-radius: 8px;
+  min-height:  20rem;
+  
 }
 
 .trainer h4 {

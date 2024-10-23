@@ -78,6 +78,8 @@
   .trainers{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 300px);
+    row-gap: 2.7rem;
+    padding-bottom: 2.7rem;
   }
   /* footer section */
   footer{
@@ -164,6 +166,7 @@
   /* package section */
   .package{
     padding: 1rem;
+    margin: 2rem auto;
   }
   .package_text{
     width: 100%;
@@ -175,6 +178,7 @@
   /* trainings */
   .trainings{
     padding: 1rem;
+    
   }
   .training_text {
     width: 100%;
@@ -216,6 +220,8 @@
   .trainers{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 300px);
+    gap: 2.7rem;
+    padding-bottom: 2.7rem;
   }
 
   /* footer section */
