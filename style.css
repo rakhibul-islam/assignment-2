@@ -96,6 +96,10 @@ nav {
 .nav_items a:hover {
   background-color: var(--theme-color);
 }
+.btn_app{
+  background-color: transparent;
+  border: 1px solid var(--secondary-text-color);
+}
 /* navbar section ends here */
 
 /* hero section starts here */
@@ -242,7 +246,49 @@ nav {
   border-radius: 0.8rem;
 }
 /* habit hero section ends here */
+/* package section start here */
+.package{
+max-width: var(--max-width);
+margin: 5rem auto;
+}
+.package_text{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.plans{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+}
+.plan{
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  
+ justify-content: space-around;
+  gap: 1.5rem;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+}
+.plan h3{
+  font-size: 1.5rem;
+}
+.plan h4{
+  font-size: 2rem;
+}
+.tick{
+color: var(--theme-color);
+margin-right: 1rem;
+}
+.btn_package{
+  background-color: transparent;
+  border: 1px solid var(--theme-color);
+}
 
+/* package section ends here */
 /* bmi section starts here */
 .bmi_text {
   width: 40%;

@@ -14,7 +14,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
-    <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon" />
   </head>
   <body>
     <nav>
@@ -47,7 +47,7 @@
             </p>
             <div>
               <button class="btn">Join Club Now!</button>
-              <button class="btn">Download App</button>
+              <button class="btn btn_app">Download App</button>
             </div>
           </div>
           <div class="hero_image">
@@ -140,6 +140,42 @@
         </div>
       </section>
       <!-- habit hero section ends here -->
+      <!-- package section starts here -->
+      <section class="package">
+        <div class="package_text">
+          <h2 class="section-heading">Our Special Plans</h2>
+          <p class="section-description">
+            Explore exclusive membership plans with personalized training, nutrition guidance, and premium facilities for your fitness journey.
+          </p>
+        </div>
+        <div class="plans">
+          <div class="plan">
+            <h3>Basic</h3>
+            <h4>$29/month</h4>
+            <hr />
+            <p><i class="fa-regular fa-circle-check tick"></i> Gym Equipment Access</p>
+            <p><i class="fa-regular fa-circle-check tick"></i>Group Classes</p>
+            <button class="btn btn_package">join Now</button>
+          </div>
+          <div class="plan">
+            <h3>Premium</h3>
+            <h4>$49/month</h4>
+            <hr />
+            <p><i class="fa-regular fa-circle-check tick"></i> 2 Personal Training Sessions</p>
+            <p><i class="fa-regular fa-circle-check tick"></i> Nutritional Guidance</p>
+            <button class="btn btn_package">join Now</button>
+          </div>
+          <div class="plan">
+            <h3>Elite </h3>
+            <h4>$69/month</h4>
+            <hr />
+            <p><i class="fa-regular fa-circle-check tick"></i> Unlimited Personal Training</p>
+            <p><i class="fa-regular fa-circle-check tick"></i> Exclusive Workshops</p>
+            <button class="btn btn_package">join Now</button>
+          </div>
+        </div>
+      </section>
+      <!-- package section ends here -->
       <!-- bmi section starts here -->
       <section class="bmi_section">
         <div class="bmi_text">
@@ -190,8 +226,12 @@
                 <div class="input_1">
                   <input type="text" name="" id="" placeholder="h" />
                 </div>
-                <div class="input_2"><input type="text" name="" id="" placeholder="Height/cm" /></div>
-                <div class="input_3"><input type="text" name="" id="" placeholder="Weight/kg"/></div>
+                <div class="input_2">
+                  <input type="text" name="" id="" placeholder="Height/cm" />
+                </div>
+                <div class="input_3">
+                  <input type="text" name="" id="" placeholder="Weight/kg" />
+                </div>
                 <div class="input_4">
                   <select name="" id="">
                     <option value="" selected>Sex</option>
@@ -216,55 +256,96 @@
       <!-- bmi section ends here -->
 
       <!-- team section starts here -->
-       <section class="team">
+      <section class="team">
         <div class="team_content">
           <div class="team_text">
             <h2 class="section-heading">Meet Our Team</h2>
             <p class="section-description">
-              We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+              We believe fitness should be accessible to everyone, everywhere,
+              regardless of income or access to a gym.
             </p>
           </div>
           <div class="trainers">
-            <div class="trainer" style="background-image: url(./images/trainer1.png);"><h4>Jerome Bell</h4><p>Trainer</p></div>
-            <div class="trainer" style="background-image: url(./images/trainer2.png);"><h4>Jerome Bell</h4><p>Trainer</p></div>
-            <div class="trainer" style="background-image: url(./images/trainer3.png);"><h4>Jerome Bell</h4><p>Trainer</p></div>
-            <div class="trainer" style="background-image: url(./images/trainer4.png);"><h4>Jerome Bell</h4><p>Trainer</p></div>
-            <div class="trainer" style="background-image: url(./images/trainer5.png);"><h4>Jerome Bell</h4><p>Trainer</p></div>
-            <div class="trainer" style="background-image: url(./images/trainer6.png);"><h4>Jerome Bell</h4><p>Trainer</p></div>
+            <div
+              class="trainer"
+              style="background-image: url(./images/trainer1.png)"
+            >
+              <h4>Jerome Bell</h4>
+              <p>Trainer</p>
+            </div>
+            <div
+              class="trainer"
+              style="background-image: url(./images/trainer2.png)"
+            >
+              <h4>Jerome Bell</h4>
+              <p>Trainer</p>
+            </div>
+            <div
+              class="trainer"
+              style="background-image: url(./images/trainer3.png)"
+            >
+              <h4>Jerome Bell</h4>
+              <p>Trainer</p>
+            </div>
+            <div
+              class="trainer"
+              style="background-image: url(./images/trainer4.png)"
+            >
+              <h4>Jerome Bell</h4>
+              <p>Trainer</p>
+            </div>
+            <div
+              class="trainer"
+              style="background-image: url(./images/trainer5.png)"
+            >
+              <h4>Jerome Bell</h4>
+              <p>Trainer</p>
+            </div>
+            <div
+              class="trainer"
+              style="background-image: url(./images/trainer6.png)"
+            >
+              <h4>Jerome Bell</h4>
+              <p>Trainer</p>
+            </div>
           </div>
         </div>
-       </section>
+      </section>
       <!-- team section ends here -->
     </main>
     <footer>
-     <div class="footer_content">
-      <div class="footer_1">
-        <h2>Fitness</h2>
-        <p class="footer_description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+      <div class="footer_content">
+        <div class="footer_1">
+          <h2>Fitness</h2>
+          <p class="footer_description">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym. With hundreds of
+            professional workouts.
+          </p>
+        </div>
+        <div class="footer_2">
+          <h3 class="footer_header">Get Started</h3>
+          <ul class="footer_items">
+            <li>Service</li>
+            <li>Contact Us</li>
+            <li>Affiliate Program</li>
+            <li>About Us</li>
+          </ul>
+        </div>
+        <div class="footer_3">
+          <h3 class="footer_header">Get Started</h3>
+          <ul class="footer_items">
+            <li>Fitness</li>
+            <li>Platform</li>
+            <li>Workout Library</li>
+            <li>App Design</li>
+          </ul>
+        </div>
       </div>
-      <div class="footer_2">
-        <h3 class="footer_header">Get Started</h3>
-        <ul class="footer_items">
-          <li>Service</li>
-          <li>Contact Us</li>
-          <li>Affiliate Program</li>
-          <li>About Us</li>
-        </ul>
+      <hr class="hr_style" />
+      <div class="copyright_content">
+        <small class="copyright">All right reserved &copy;Fitness 2024</small>
       </div>
-      <div class="footer_3">
-        <h3 class="footer_header">Get Started</h3>
-        <ul class="footer_items">
-          <li>Fitness</li>
-          <li>Platform</li>
-          <li>Workout Library</li>
-          <li>App Design</li>
-        </ul>
-      </div>
-     </div>
-     <hr class="hr_style">
-     <div class="copyright_content">
-      <small class="copyright">All right reserved &copy;Fitness 2024</small>
-     </div>
     </footer>
   </body>
 </html>
