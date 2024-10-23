@@ -1,3 +1,98 @@
+/* tablet section */
+@media screen and (max-width:768px) {
+   /* navbar section */
+   .nav_content{
+    padding: 1rem;
+  }
+  /* hero section */
+  .hero_content{
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .hero_text{
+    width: 90%;
+  }
+  .hero_card_2{
+    bottom: 8rem;
+    left: 0;
+  }
+  /* habit section */
+  .habits{
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2rem;
+    gap: 2rem;
+  }
+  .habit_item{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+  .habit_text{
+    width: 70%;
+  }
+  .habit_hero{
+    padding: 1rem;
+  }
+  /* package section */
+  .package{
+    padding: 1rem;
+  }
+  .package_text{
+    width: 90%;
+  }
+  .plans{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 10rem;
+  }
+  /* trainings */
+  .trainings{
+    padding: 1rem;
+  }
+  .training_text {
+    width: 80%;
+  }
+  /* bmi section */
+  .bmi_text{
+    width: 80%;
+    padding: 1rem;
+  }
+  .bmi_content{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem;
+  }
+  .table{
+    grid-column: 1 / 2;
+  }
+  .form{
+    grid-column: 1 / 2;
+  }
+  /* team section */
+  .team{
+    padding: 1rem;
+  }
+  .team_text{
+    width: 80%;
+
+  }
+  .trainers{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 300px);
+  }
+  /* footer section */
+  footer{
+    padding: 1rem;
+  }
+  .footer_content{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .footer_description{
+    width: 70%;
+  }
+}
+
+/* mobile section */
 @media screen and (max-width:576px) {
   /* navbar section */
    .nav_content{
@@ -75,6 +170,7 @@
   }
   .plans{
     grid-template-columns: repeat(1, 1fr);
+    padding: 1rem;
   }
   /* trainings */
   .trainings{
@@ -126,8 +222,15 @@
   footer{
     padding: 1rem;
   }
+  .footer_description{
+    width: 80%;
+  }
   .footer_content{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns:repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 2rem;
+  }
+  .footer_1{
+    grid-column: 1 / 2;
   }
 }
