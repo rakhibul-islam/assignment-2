@@ -17,21 +17,25 @@
     <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon" />
   </head>
   <body>
-    <nav>
+    <!-- navbar section starts here -->
+    <nav >
       <div class="nav_content flex-space-between">
         <div>
-          <a href="home" class="logo">Fitness</a>
+          <a href="#home" class="logo">Fitness</a>
         </div>
         <i class="fa-solid fa-bars hamburger"></i>
         <ul class="nav_items">
-          <li><a href="home">Home</a></li>
-          <li><a href="service">Service</a></li>
-          <li><a href="contact">Contact</a></li>
-          <li><a href="about">About</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#package">Package</a></li>
+          <li><a href="#training">Training</a></li>
+          <li><a href="#bmi">BMI</a></li>
+          <li><a href="#trainer">Trainer</a></li>
         </ul>
       </div>
     </nav>
-    <header>
+    <!-- navbar section ends here -->
+    <header id="home">
       <!-- hero section starts here -->
       <section class="hero">
         <div class="hero_content flex-space-between">
@@ -59,7 +63,9 @@
               <img src="./images/Images 2.png" alt="" class="hero_img" />
             </div>
             <article class="hero_card_2">
-              <div class="play_btn"></div>
+              <div class="play_btn">
+                <div></div>
+              </div>
               <div class="video_tutorial">
                 <h3>350+</h3>
                 <p>Video tutorial</p>
@@ -72,7 +78,7 @@
     </header>
     <main>
       <!-- habit section starts here -->
-      <section class="habit">
+      <section id="service" class="habit">
         <div class="habit_content">
           <div class="habit_text">
             <h1 class="section-heading">Change Your Habits</h1>
@@ -141,11 +147,12 @@
       </section>
       <!-- habit hero section ends here -->
       <!-- package section starts here -->
-      <section class="package">
+      <section id="package" class="package">
         <div class="package_text">
           <h2 class="section-heading">Our Special Plans</h2>
           <p class="section-description">
-            Explore exclusive membership plans with personalized training, nutrition guidance, and premium facilities for your fitness journey.
+            Explore exclusive membership plans with personalized training,
+            nutrition guidance, and premium facilities for your fitness journey.
           </p>
         </div>
         <div class="plans">
@@ -153,51 +160,65 @@
             <h3>Basic</h3>
             <h4>$ 29/month</h4>
             <hr />
-            <p><i class="fa-regular fa-circle-check tick"></i> Gym Equipment Access</p>
+            <p>
+              <i class="fa-regular fa-circle-check tick"></i> Gym Equipment
+              Access
+            </p>
             <p><i class="fa-regular fa-circle-check tick"></i>Group Classes</p>
-            <button class="btn btn_package">join Now</button>
+            <button class="btn btn_package">Join Now</button>
           </div>
           <div class="plan">
             <h3>Premium</h3>
             <h4>$ 49/month</h4>
             <hr />
-            <p><i class="fa-regular fa-circle-check tick"></i> 2 Personal Training Sessions</p>
-            <p><i class="fa-regular fa-circle-check tick"></i> Nutritional Guidance</p>
-            <button class="btn btn_package">join Now</button>
+            <p>
+              <i class="fa-regular fa-circle-check tick"></i> 2 Personal
+              Training Sessions
+            </p>
+            <p>
+              <i class="fa-regular fa-circle-check tick"></i> Nutritional
+              Guidance
+            </p>
+            <button class="btn btn_package">Join Now</button>
           </div>
           <div class="plan">
-            <h3>Elite </h3>
+            <h3>Elite</h3>
             <h4>$ 69/month</h4>
             <hr />
-            <p><i class="fa-regular fa-circle-check tick"></i> Unlimited Personal Training</p>
-            <p><i class="fa-regular fa-circle-check tick"></i> Exclusive Workshops</p>
-            <button class="btn btn_package">join Now</button>
+            <p>
+              <i class="fa-regular fa-circle-check tick"></i> Unlimited Personal
+              Training
+            </p>
+            <p>
+              <i class="fa-regular fa-circle-check tick"></i> Exclusive
+              Workshops
+            </p>
+            <button class="btn btn_package">Join Now</button>
           </div>
         </div>
       </section>
       <!-- package section ends here -->
-       <!-- training section starts here -->
-       <section class="trainings">
+      <!-- training section starts here -->
+      <section id="training" class="trainings">
         <div class="training_text">
-          <h2 class="section-heading">
-            Trainings and Exercises
-          </h2>
+          <h2 class="section-heading">Trainings and Exercises</h2>
           <p class="section-description">
-            We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
           </p>
         </div>
         <div class="training_gallery">
-          <div class="box box_1"><p>Apple</p></div>
-          <div class="box box_2"><p>Apple</p></div>
-          <div class="box box_3"><p>Apple</p></div>
-          <div class="box box_4"><p >Apple</p></div>
-          <div class="box box_5"><p>Apple</p></div>
-          <div class="box box_6"><p>Apple</p></div>
+          <div class="box box_1"><p>Ankle Push Ups</p></div>
+          <div class="box box_2"><p>Push Ups</p></div>
+          <div class="box box_3"><p>Jumping</p></div>
+          <div class="box box_4"><p>Free Hand Exercise</p></div>
+          <div class="box box_5"><p>Streching</p></div>
+          <div class="box box_6"><p>Belly Pushups</p></div>
         </div>
-       </section>
+      </section>
       <!-- training section ends here -->
       <!-- bmi section starts here -->
-      <section class="bmi_section">
+      <section id="bmi" class="bmi_section">
         <div class="bmi_text">
           <h2 class="section-heading">BMI Calculator</h2>
           <p class="section-description">
@@ -276,7 +297,7 @@
       <!-- bmi section ends here -->
 
       <!-- team section starts here -->
-      <section class="team">
+      <section id="trainer" class="team">
         <div class="team_content">
           <div class="team_text">
             <h2 class="section-heading">Meet Our Team</h2>
@@ -336,7 +357,7 @@
     <footer>
       <div class="footer_content">
         <div class="footer_1">
-          <h2>Fitness</h2>
+          <h2><a href="#home">Fitness</a></h2>
           <p class="footer_description">
             We believe fitness should be accessible to everyone, everywhere,
             regardless of income or access to a gym. With hundreds of

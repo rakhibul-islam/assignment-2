@@ -67,6 +67,10 @@ a {
 nav {
   max-width: var(--max-width);
   margin: 0 auto;
+  position: sticky;
+  z-index: 99;
+  top: 0;
+  left: 0;
 }
 .nav_content {
   padding: 1rem 0;
@@ -181,7 +185,18 @@ nav {
   background-color: var(--theme-color);
   border: none;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.play_btn > div{
+  background-color: var(--primary-text-color);
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 0 50% 50% 0;
+  display: none;
+}
+
 /* hero section ends here */
 
 /* habit section starts hero */
@@ -299,6 +314,10 @@ margin-right: 1rem;
 .btn_package{
   background-color: transparent;
   border: 1px solid var(--theme-color);
+}
+.btn_package:hover{
+  background-color: var(--theme-color);
+  border: 1px solid var(--primary-text-color);
 }
 
 /* package section ends here */
@@ -509,9 +528,12 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   gap: 6rem;
 }
-.footer_1 > h2 {
+.footer_1 > h2 > a {
   color: var(--theme-color);
   font-size: 2rem;
+ 
+}
+.footer_1 >h2{
   padding-bottom: 1.5rem;
 }
 .footer_1 {
