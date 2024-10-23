@@ -45,6 +45,7 @@ a {
   color: var(--secondary-text-color);
   padding: 0.5rem 0 2rem 0;
 }
+
 .btn {
   background-color: var(--theme-color);
   color: white;
@@ -204,7 +205,7 @@ nav {
   width: 80%;
 }
 .habit_description {
-  padding: 0 1.5rem;
+  padding: 0 0.5;
 }
 .habit_description h4 {
   font-size: 1rem;
@@ -217,28 +218,155 @@ nav {
   color: var(--secondary-text-color);
 }
 /* habit section ends hero */
-  /* habit hero section starts here */
-  .habit_hero{
-    max-width: var(--max-width);
-    margin: 0 auto;
-  }
-  .habit_hero_content{
-    background-color: var(--secondary-color);
-    border-radius: 0.8rem;
-    padding: 2rem;
-    gap: 2rem;
-    
-  }
-  .habit_hero_text{
-    flex-basis: 40%;
-  }
-  .habit_hero_text p{
-    padding:  2rem 0;
-  }
-  .habit_hero_image{
-    flex-basis: 40%;
-  }
-  .habit_hero_image img{
-    border-radius: 0.8rem;
-  }
-  /* habit hero section ends here */
+/* habit hero section starts here */
+.habit_hero {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.habit_hero_content {
+  background-color: var(--secondary-color);
+  border-radius: 0.8rem;
+  padding: 2rem;
+  gap: 2rem;
+}
+.habit_hero_text {
+  flex-basis: 40%;
+}
+.habit_hero_text p {
+  padding: 2rem 0;
+}
+.habit_hero_image {
+  flex-basis: 40%;
+}
+.habit_hero_image img {
+  border-radius: 0.8rem;
+}
+/* habit hero section ends here */
+
+/* bmi section starts here */
+.bmi_text{
+ width: 40%;
+ margin: 2rem auto 0 auto;
+}
+.bmi {
+  max-width: 100%;
+  background-color: var(--secondary-color);
+  margin: 1rem auto;
+}
+.bmi_content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5rem;
+}
+.bmi_heading {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--primary-text-color);
+  padding-bottom: 2rem;
+}
+.table {
+  grid-column: 1 / 3;
+}
+table,
+th,
+td {
+  border: 1px solid var(--secondary-text-color);
+  border-collapse: collapse;
+  text-align: start;
+}
+th,
+td {
+  padding: 0.5rem 1.5rem;
+}
+th {
+  color: var(--primary-text-color);
+}
+td {
+  color: var(--secondary-text-color);
+}
+.form {
+  grid-column: 4 / 7;
+}
+.form h3 {
+  padding-bottom: 1rem;
+}
+.form p {
+  font-size: 0.9rem;
+  color: var(--secondary-text-color);
+}
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  padding-top: 2rem;
+}
+.input_5 {
+  grid-column: span 2;
+}
+form input,
+select {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--secondary-text-color);
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+}
+option  {
+  background-color: gray;
+  color: var(--secondary-text-color);
+ 
+}
+.btn_calculate {
+  width: 70%;
+  margin-top: 1rem;
+}
+
+/* bmi section ends here */
+
+/* team section starts here */
+.team{
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.team_text{
+  width: 50%;
+  margin: 3rem auto 2rem auto;
+  text-align: center;
+}
+.trainers{
+  display: grid;
+  background-color: var(--secondary-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  min-height: 70vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+.trainer{
+  background-position: top;
+  background-size: cover;
+  position: relative;
+  border-radius: 8px;
+  
+}
+
+.trainer h4{
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
+.trainer p{
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  font-size: 0.8rem;
+  
+}
+/* team section ends here */

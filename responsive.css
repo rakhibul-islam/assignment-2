@@ -43,4 +43,32 @@
   .habit_btn{
     width: 100%;
   }
+  /* bmi section */
+  
+  .bmi_text{
+    width: 100%;
+    padding: 1rem;
+  }
+  .bmi_content{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem;
+  }
+  .table{
+    grid-column: 1 / 2;
+  }
+  .form{
+    grid-column: 1 / 2;
+  }
+  /* team section */
+  .team{
+    padding: 1rem;
+  }
+  .team_text{
+    width: 100%;
+
+  }
+  .trainers{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 300px);
+  }
 }
