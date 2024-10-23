@@ -31,7 +31,7 @@
   }
   .habits{
     grid-template-columns: repeat(1, 1fr);
-    padding: 0 4rem;
+    padding: 0 2rem;
   }
   /* habit hero */
   .habit_hero{
@@ -53,6 +53,23 @@
   .plans{
     grid-template-columns: repeat(1, 1fr);
   }
+  /* trainings */
+  .trainings{
+    padding: 1rem;
+  }
+  .training_text {
+    width: 100%;
+  }
+  .box_3,
+  .box_6 {
+    display: none;
+  }
+  .training_gallery {
+    grid-template-areas:
+      "b1 b1 b1 b1 b1 b1 b2 b2 b2 b2 b2 b2"
+      "b4 b4 b4 b4 b4 b5 b5 b5 b5 b5 b5 b5";
+  }
+
   /* bmi section */
   
   .bmi_text{
