@@ -33,4 +33,14 @@
     grid-template-columns: repeat(1, 1fr);
     padding: 0 4rem;
   }
+  /* habit hero */
+  .habit_hero{
+    padding: 1rem;
+  }
+  .habit_hero_content{
+    flex-direction: column;
+  }
+  .habit_btn{
+    width: 100%;
+  }
 }

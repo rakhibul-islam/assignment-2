@@ -50,7 +50,7 @@ a {
   color: white;
   border: none;
   border-radius: 2rem;
-  padding: 0.7rem 1rem;
+  padding: 0.7rem 2rem;
   font-weight: 600;
   cursor: pointer;
 }
@@ -217,3 +217,28 @@ nav {
   color: var(--secondary-text-color);
 }
 /* habit section ends hero */
+  /* habit hero section starts here */
+  .habit_hero{
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+  .habit_hero_content{
+    background-color: var(--secondary-color);
+    border-radius: 0.8rem;
+    padding: 2rem;
+    gap: 2rem;
+    
+  }
+  .habit_hero_text{
+    flex-basis: 40%;
+  }
+  .habit_hero_text p{
+    padding:  2rem 0;
+  }
+  .habit_hero_image{
+    flex-basis: 40%;
+  }
+  .habit_hero_image img{
+    border-radius: 0.8rem;
+  }
+  /* habit hero section ends here */
