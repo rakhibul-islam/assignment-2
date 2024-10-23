@@ -340,7 +340,7 @@ margin-right: 1rem;
 
 .training_gallery {
   display: grid;
-  height: 60vh;
+  height: auto;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas:
     "b1 b1 b1 b2 b2 b2 b2 b2 b2 b3 b3 b3"
@@ -400,7 +400,7 @@ margin-right: 1rem;
 /* training section ends here */
 /* bmi section starts here */
 .bmi_section{
-  margin-top: 10rem;
+  margin: 2.5rem 0;
 }
 .bmi_text {
   width: 40%;
