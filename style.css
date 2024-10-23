@@ -8,6 +8,7 @@
   --secondary-color: rgb(34, 34, 34);
   --primary-text-color: rgb(255, 255, 255);
   --secondary-text-color: rgba(255, 255, 255, 0.5);
+  --box-shadow: 0.1rem 0.2rem 0.8rem rgb(66, 62, 64);
 }
 
 /* reset and common code starts here */
@@ -207,6 +208,11 @@ nav {
 .habit_item img {
   border-radius: 50%;
   width: 80%;
+  cursor: pointer;
+}
+.habit_item img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
 }
 .habit_description {
   padding: 0 0.5;
@@ -238,6 +244,7 @@ nav {
 }
 .habit_hero_text p {
   padding: 2rem 0;
+  
 }
 .habit_hero_image {
   flex-basis: 40%;
@@ -272,12 +279,18 @@ margin: 5rem auto;
   gap: 1.5rem;
   padding: 3rem 2rem;
   border-radius: 8px;
+  box-shadow: var(--box-shadow);
 }
 .plan h3{
   font-size: 1.5rem;
 }
 .plan h4{
   font-size: 2rem;
+  
+}
+.plan p{
+  color: var(--secondary-text-color);
+  font-size: 0.9rem;
 }
 .tick{
 color: var(--theme-color);

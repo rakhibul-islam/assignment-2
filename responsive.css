@@ -43,6 +43,16 @@
   .habit_btn{
     width: 100%;
   }
+  /* package section */
+  .package{
+    padding: 1rem;
+  }
+  .package_text{
+    width: 100%;
+  }
+  .plans{
+    grid-template-columns: repeat(1, 1fr);
+  }
   /* bmi section */
   
   .bmi_text{
