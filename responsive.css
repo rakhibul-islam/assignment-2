@@ -195,6 +195,9 @@
   }
 
   /* bmi section */
+  .bmi_section{
+    margin-top: 2rem;
+  }
   
   .bmi_text{
     width: 100%;
