@@ -244,9 +244,9 @@ nav {
 /* habit hero section ends here */
 
 /* bmi section starts here */
-.bmi_text{
- width: 40%;
- margin: 2rem auto 0 auto;
+.bmi_text {
+  width: 40%;
+  margin: 2rem auto 0 auto;
 }
 .bmi {
   max-width: 100%;
@@ -315,10 +315,9 @@ select {
   border: none;
   border-radius: 6px;
 }
-option  {
+option {
   background-color: gray;
   color: var(--secondary-text-color);
- 
 }
 .btn_calculate {
   width: 70%;
@@ -328,45 +327,93 @@ option  {
 /* bmi section ends here */
 
 /* team section starts here */
-.team{
+.team {
   max-width: var(--max-width);
   margin: 0 auto;
 }
-.team_text{
+.team_text {
   width: 50%;
   margin: 3rem auto 2rem auto;
   text-align: center;
 }
-.trainers{
+.trainers {
   display: grid;
   background-color: var(--secondary-color);
   padding: 1.5rem;
   border-radius: 8px;
-  min-height: 70vh;
+  min-height: 90vh;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 1rem;
 }
-.trainer{
+.trainer {
   background-position: top;
   background-size: cover;
   position: relative;
   border-radius: 8px;
-  
 }
 
-.trainer h4{
+.trainer h4 {
   position: absolute;
   bottom: 2rem;
   left: 1rem;
   font-size: 1rem;
   font-weight: 800;
 }
-.trainer p{
+.trainer p {
   position: absolute;
   bottom: 1rem;
   left: 1rem;
   font-size: 0.8rem;
-  
 }
 /* team section ends here */
+
+/* footer section starts here */
+footer {
+  width: 100%;
+  background-color: var(--secondary-color);
+  margin: 3rem auto 0 auto;
+}
+.footer_content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6rem;
+}
+.footer_1 > h2 {
+  color: var(--theme-color);
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+.footer_1 {
+  grid-column: span 2;
+}
+.footer_items{
+  color: var(--secondary-text-color);
+  font-size: 0.8rem;
+
+}
+.footer_description{
+  color: var(--secondary-text-color);
+  font-size: 0.9rem;
+  text-align: justify;
+}
+.footer_items li{
+  padding: 0.6rem 0;
+}
+.hr_style {
+  max-width: var(--max-width);
+  margin: auto;
+  border: none;
+  border-top: 1px solid var(--secondary-text-color);
+}
+.copyright_content {
+  text-align: center;
+  padding: 1rem;
+}
+.copyright {
+  color: var(--secondary-text-color);
+}
+/* footer section ends here */
