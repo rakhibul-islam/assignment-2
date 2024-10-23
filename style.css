@@ -534,7 +534,7 @@ footer {
   padding: 3rem 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 6rem;
+  gap: 12rem;
 }
 .footer_1 > h2 > a {
   color: var(--theme-color);
