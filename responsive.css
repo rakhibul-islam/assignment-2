@@ -98,7 +98,7 @@
 @media screen and (max-width:576px) {
   /* navbar section */
    .nav_content{
-    padding: 1rem 2.2rem;
+    padding: 1rem 2rem;
   }
   .checkbox {
     display: block;
