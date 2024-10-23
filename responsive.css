@@ -1,13 +1,30 @@
 @media screen and (max-width:576px) {
   /* navbar section */
-  .nav_content{
+   .nav_content{
     padding: 1rem;
   }
-  .hamburger{
+  .checkbox {
     display: block;
   }
-  .nav_items{
-    display: none;
+  .nav_items {
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: calc(50vh - 85px);
+    top: 85px;
+    left: -100%;
+    border: none;
+    transition: left 0.5s;
+    border-radius: 0;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  .nav_items li a {
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 2px var(--theme-color), -2px -2px 2px black;
+    padding: 0.5rem 1rem;
   }
   /* hero section */
   .hero_content{

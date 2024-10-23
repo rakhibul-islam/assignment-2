@@ -80,11 +80,18 @@ nav {
   font-size: 2rem;
   font-weight: 800;
 }
-.hamburger {
-  color: var(--primary-text-color);
-  font-size: 1.5rem;
+.checkbox {
   display: none;
 }
+.hamburger {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--primary-text-color);
+}
+.nav_content input {
+  display: none;
+}
+
 .nav_items {
   display: flex;
   align-items: center;
@@ -101,6 +108,7 @@ nav {
 .nav_items a:hover {
   background-color: var(--theme-color);
 }
+
 .btn_app{
   background-color: transparent;
   border: 1px solid var(--secondary-text-color);
